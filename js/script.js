@@ -11,8 +11,7 @@ ACCESSOR
 MANIPULATORS
   setAttribute
   innerHTML
-  style 
-  test
+  style
 */
   button= document.getElementById('entrybutton');
   function displayText(){
