@@ -16,12 +16,11 @@ MANIPULATORS
   button= document.getElementByID("entrybutton");
   function displayText(){
     textbox= document.getElementById("entryinput")
-    document.
+    document.getElementsByID("textoutput").innerHTML= textbox.value;
+    alert("Michael Galvan:"+textbox.value);
   }
 window.addEventListener("click", displayText)
-
-
-
+}
 
 
 window.addEventListener('load', init);
