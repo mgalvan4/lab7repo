@@ -17,7 +17,7 @@ MANIPULATORS
   function displayText(){
     textbox = document.getElementById('entryinput');
     document.getElementById('textoutput').innerHTML = textbox.value;
-    alert('Michael Galvan:'+textbox.value);
+    alert('Michael Galvan: '+textbox.value);
   }
   button.addEventListener('click', displayText);
 }
