@@ -13,13 +13,13 @@ MANIPULATORS
   innerHTML
   style
 */
-  button= document.getElementByID("entrybutton");
+  button= document.getElementByID('entrybutton');
   function displayText(){
-    textbox= document.getElementById("entryinput");
-    document.getElementsByID("textoutput").innerHTML= textbox.value;
-    alert("Michael Galvan:"+textbox.value);
+    textbox = document.getElementById('entryinput');
+    document.getElementsByID('textoutput').innerHTML = textbox.value;
+    alert('Michael Galvan:'+textbox.value);
   }
-button.addEventListener("click", displayText);
+  button.addEventListener('click', displayText);
 }
 
 
