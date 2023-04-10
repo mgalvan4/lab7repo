@@ -13,7 +13,7 @@ MANIPULATORS
   innerHTML
   style
 */
-  button= document.getElementByID('entrybutton');
+  button= document.getElementById('entrybutton');
   function displayText(){
     textbox = document.getElementById('entryinput');
     document.getElementsByID('textoutput').innerHTML = textbox.value;
